@@ -1,0 +1,325 @@
+body {
+  background-color: #f0f0f0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.title {
+  margin-left: 100px;
+  width: 70%;
+  text-shadow: #003366;
+}
+
+hr {
+  color: #ffa500;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.address {
+  background-color: #7b8d8e;
+  width: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 125px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.title-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #003366;
+}
+
+nav a {
+  background-color: #ffa500;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: x-large;
+  border-radius: 10px;
+  margin: 10px 20px 10px 20px;
+}
+
+nav a:hover {
+  background-color: #ffd700;
+}
+
+.carousel-mission {
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.carousel img {
+  width: 350px;
+  height: 250px;
+  margin-right: -75px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.main-img {
+  width: 369px;
+  height: 300px;
+  z-index: 1;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7b8d8e;
+  color: #ffffff;
+  width: 20%;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.mission p {
+  text-align: center;
+}
+
+.values {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 30px;
+}
+
+.values img {
+  width: 300px;
+  margin: 20px;
+}
+
+.quality {
+  display: flex;
+  flex-direction: column;
+  background-color: #7b8d8e;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.quality img {
+  width: 250px;
+}
+
+.quality-details {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.safety {
+  display: flex;
+  flex-direction: column;
+  background-color: #7b8d8e;
+  align-items: center;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.saftey-details {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #003366;
+  border-radius: 10px;
+  width: 50%;
+  margin: 50px 0 50px 25%;
+  height: auto;
+}
+
+.tests {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tests div {
+  width: 20%;
+  background-color: #7b8d8e;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+}
+
+footer img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.insta {
+  width: 130px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header,
+  .carousel-mission,
+  .values,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel,
+  .mission,
+  .quality,
+  .safety {
+    width: 100%; /* Adjust the width to fit tablet screens */
+  }
+
+  .carousel img,
+  .quality img,
+  .safety img {
+    width: 100%; /* Make images responsive */
+    margin-right: 0; /* Remove the negative margin on images */
+  }
+
+  .address {
+    width: 300px;
+  }
+
+  .mission {
+    width: auto;
+    margin-top: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    margin-bottom: 10px; /* Add some space between the nav links */
+  }
+
+  .testimonials {
+    width: 80%; /* Adjust the width of testimonials for tablets */
+    margin: 50px auto; /* Center the testimonials on the page */
+  }
+
+  .tests div {
+    width: 80%; /* Adjust the width of each testimonial */
+    margin: 10px;
+  }
+
+  .quality,
+  .safety {
+    margin: 20px 0;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+  header,
+  .carousel-mission,
+  .values,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel,
+  .mission,
+  .quality,
+  .safety {
+    width: 100%; /* Adjust the width to fit mobile screens */
+  }
+
+  .carousel img,
+  .quality img,
+  .safety img {
+    width: 100%; /* Make images responsive */
+    margin-right: 0; /* Remove the negative margin on images */
+  }
+
+  .address {
+    width: 300px;
+  }
+
+  .mission {
+    width: auto;
+    margin-top: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    width: auto; /* Adjust the width of nav links for mobile */
+    margin-bottom: 10px; /* Add some space between the nav links */
+  }
+
+  .testimonials {
+    width: 90%; /* Adjust the width of testimonials for mobile */
+    margin: 20px auto; /* Center the testimonials on the page */
+  }
+
+  .tests {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tests div {
+    width: 80%; /* Adjust the width of each testimonial */
+  }
+
+  .quality,
+  .safety {
+    margin: 20px 0;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+}
