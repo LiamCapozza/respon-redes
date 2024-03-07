@@ -216,14 +216,14 @@ footer img {
   .mission,
   .quality,
   .safety {
-    width: 100%; /* Adjust the width to fit tablet screens */
+    width: 100%;
   }
 
   .carousel img,
   .quality img,
   .safety img {
-    width: 100%; /* Make images responsive */
-    margin-right: 0; /* Remove the negative margin on images */
+    width: 100%;
+    margin-right: 0;
   }
 
   .address {
@@ -240,16 +240,16 @@ footer img {
   }
 
   nav a {
-    margin-bottom: 10px; /* Add some space between the nav links */
+    margin-bottom: 10px;
   }
 
   .testimonials {
-    width: 80%; /* Adjust the width of testimonials for tablets */
-    margin: 50px auto; /* Center the testimonials on the page */
+    width: 80%;
+    margin: 50px auto;
   }
 
   .tests div {
-    width: 80%; /* Adjust the width of each testimonial */
+    width: 80%;
     margin: 10px;
   }
 
@@ -259,7 +259,6 @@ footer img {
   }
 }
 
-/* Mobile Styles */
 @media only screen and (max-width: 767px) {
   header,
   .carousel-mission,
@@ -273,14 +272,14 @@ footer img {
   .mission,
   .quality,
   .safety {
-    width: 100%; /* Adjust the width to fit mobile screens */
+    width: 100%;
   }
 
   .carousel img,
   .quality img,
   .safety img {
-    width: 100%; /* Make images responsive */
-    margin-right: 0; /* Remove the negative margin on images */
+    width: 100%;
+    margin-right: 0;
   }
 
   .address {
@@ -297,13 +296,13 @@ footer img {
   }
 
   nav a {
-    width: auto; /* Adjust the width of nav links for mobile */
-    margin-bottom: 10px; /* Add some space between the nav links */
+    width: auto;
+    margin-bottom: 10px;
   }
 
   .testimonials {
-    width: 90%; /* Adjust the width of testimonials for mobile */
-    margin: 20px auto; /* Center the testimonials on the page */
+    width: 90%;
+    margin: 20px auto;
   }
 
   .tests {
@@ -311,7 +310,7 @@ footer img {
     align-items: center;
   }
   .tests div {
-    width: 80%; /* Adjust the width of each testimonial */
+    width: 80%;
   }
 
   .quality,
